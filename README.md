@@ -34,6 +34,6 @@ login using: ssh grader@52.39.64.250 -p 2200 -i ~/.ssh/linuxCourse
     123 (v6)                   ALLOW       Anywhere (v6)<br>
     
 <h2>Sources Used</h2>
-    https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
-    https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+    https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e<br>
+    https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps<br>
     Udacity Full stack web development course materials
