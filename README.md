@@ -23,16 +23,16 @@ grader pass: grader
 </ul>
 
 <h2>Firewall settings</h2>
-	22                         ALLOW       Anywhere<br>
-    2200/tcp                   ALLOW       Anywhere<br>
-    2222/tcp                   ALLOW       Anywhere<br>
-    80/tcp                     ALLOW       Anywhere<br>
-    123                        ALLOW       Anywhere<br>
-    22 (v6)                    ALLOW       Anywhere (v6)<br>
-    2200/tcp (v6)              ALLOW       Anywhere (v6)<br>
-    2222/tcp (v6)              ALLOW       Anywhere (v6)<br>
-    80/tcp (v6)                ALLOW       Anywhere (v6)<br>
-    123 (v6)                   ALLOW       Anywhere (v6)<br>
+22                         DENY        Anywhere <br>
+2200/tcp                   ALLOW       Anywhere<br>
+2222/tcp                   DENY        Anywhere<br>
+80/tcp                     ALLOW       Anywhere<br>
+123                        ALLOW       Anywhere<br>
+22 (v6)                    DENY        Anywhere (v6)<br>
+2200/tcp (v6)              ALLOW       Anywhere (v6)<br>
+2222/tcp (v6)              DENY        Anywhere (v6)<br>
+80/tcp (v6)                ALLOW       Anywhere (v6)<br>
+123 (v6)                   ALLOW       Anywhere (v6)<br>
     
 <h2>Sources Used</h2>
     https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e<br>
