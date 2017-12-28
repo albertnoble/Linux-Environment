@@ -5,7 +5,8 @@ IP address: 52.39.64.250
 Port = 2200
 URL: http://52.39.64.250/
 
-login using: ssh grader@52.39.64.250 -p 2200 -i ~/.ssh/linuxCourse
+login using: ssh grader@52.39.64.250 -p 2200 -i ~/.ssh/linuxCourse<br>
+grader pass: grader
 
 <h2>Software used:</h2>
 <ul>
